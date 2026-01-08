@@ -58,7 +58,7 @@ python remover.py file.pdf --preview
 
 ```
 pip install pyinstaller
-pyinstaller --noconsole --onefile --name "PDF水印去除助手" gui_watermark_remover.py
+pyinstaller --noconsole --onefile --name "图片水印去除助手" notebooklm_remover.py
 ```
 ## What's Inside
 
