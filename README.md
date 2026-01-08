@@ -54,7 +54,12 @@ Check how it looks on just the first page:
 ```bash
 python remover.py file.pdf --preview
 ```
+### Build To EXE
 
+```
+pip install pyinstaller
+pyinstaller --noconsole --onefile --name "PDF水印去除助手" gui_watermark_remover.py
+```
 ## What's Inside
 
 - `remover.py` - Core logic using PyMuPDF and OpenCV.
