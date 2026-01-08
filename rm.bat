@@ -1,0 +1,1 @@
+python remover.py %1
