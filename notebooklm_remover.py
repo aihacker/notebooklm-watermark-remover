@@ -193,5 +193,8 @@ class NotebookLMWatermarkRemover:
 # ===================== 运行入口 =====================
 if __name__ == "__main__":
     # 无需任何配置，直接运行即可
+    # pip install pyinstaller
+    # pyinstaller --noconsole --onefile --name "图片水印去除助手" notebooklm_remover.py
     remover = NotebookLMWatermarkRemover()
+
     remover.run()
