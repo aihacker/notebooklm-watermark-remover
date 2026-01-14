@@ -59,6 +59,13 @@ python remover.py file.pdf --preview
 ```
 pip install pyinstaller
 pyinstaller --noconsole --onefile --name "图片水印去除助手" notebooklm_remover.py
+
+# 打包为单文件exe（在脚本所在目录执行）
+pyinstaller -F -w --console 你的脚本名.py
+# 说明：
+# -F：打包为单个exe文件
+# -w：不显示控制台（如果需要看输出，去掉-w）
+# --console：强制显示控制台（确保能看到处理结果）
 ```
 ## What's Inside
 
